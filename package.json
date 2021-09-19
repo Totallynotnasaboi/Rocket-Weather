@@ -6,10 +6,7 @@
   "author": "Francesco Silvani",
   "private": true,
   "scripts": {
-    "test": "echo \"No test specified\" && exit 0",
-    "start": "electron .",
-    "build": "electron-packager . app --platform linux --arch x64 --out dist/",
-    "deb64": "electron-installer-debian --src dist/app-linux-x64/ --dest dist/installers/ --arch amd64"
+    "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",

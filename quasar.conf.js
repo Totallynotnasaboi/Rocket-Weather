@@ -185,8 +185,8 @@ module.exports = configure(function (ctx) {
       bundler: 'packager', // 'packager' or 'builder'
 
       packager: {
-        
-        "package-linux": "electron-packager .  rocket-weather --overwrite --asar=true --platform=linux --arch=x64 --icon=src/assets/quasar-logo-vertical.svg --prune=true --out=release-builds",
+
+        platform: 'win32'
         // platform: 'win32'
 
         // https://github.com/electron-userland/electron-packager/blob/master/docs/api.md#options
